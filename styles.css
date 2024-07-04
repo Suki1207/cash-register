@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #292121;
+  color: aliceblue;
+}
+
+.container {
+  margin-top: 200px;
+}
+
+p {
+  margin-top: 40px;
+}
+
+#cash {
+  width: 55%;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+#purchase-btn {
+  width: 30%;
+  font-weight: bold;
+  color: #fff;
+  background-color: #14131c;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+#purchase-btn:hover {
+  background-color: #1f1d2b;
+}
+
+#purchase-btn:active {
+  border: 10x solid #fff;
+}
+
+#change-due {
+  margin-top: 40px;
+}
